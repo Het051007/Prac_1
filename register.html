@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - StudentHub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+
+        <div class="logo">
+            🎓 StudentHub
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-buttons">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="register.html" class="register-btn active-btn">Register</a>
+        </div>
+
+    </header>
+
+
+    <!-- Register Section -->
+    <main>
+
+        <section class="register-page">
+
+            <!-- Left Information Section -->
+            <div class="register-info">
+
+                <span class="register-tag">JOIN STUDENTHUB</span>
+
+                <h1>
+                    Start Your
+                    <span>Student Journey.</span>
+                </h1>
+
+                <p>
+                    Create your StudentHub account and get access to
+                    academic resources, college events, student
+                    communities and much more.
+                </p>
+
+                <div class="register-benefits">
+
+                    <div class="benefit-item">
+                        <div class="benefit-icon">📚</div>
+                        <div>
+                            <h3>Academic Resources</h3>
+                            <p>Access useful learning materials and resources.</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🎯</div>
+                        <div>
+                            <h3>Track Your Progress</h3>
+                            <p>Manage your academic journey in one place.</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🤝</div>
+                        <div>
+                            <h3>Connect & Participate</h3>
+                            <p>Discover events and connect with students.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Registration Form -->
+            <div class="register-card">
+
+                <div class="form-heading">
+                    <h2>Create Account</h2>
+                    <p>Fill in your details to get started.</p>
+                </div>
+
+                <form action="#" method="post">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input
+                                type="text"
+                                id="firstName"
+                                name="firstName"
+                                placeholder="Enter first name"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input
+                                type="text"
+                                id="lastName"
+                                name="lastName"
+                                placeholder="Enter last name"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="student@example.com"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter phone number"
+                        >
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="course">Course</label>
+
+                            <select id="course" name="course" required>
+                                <option value="">Select course</option>
+                                <option value="cse">Computer Science</option>
+                                <option value="it">Information Technology</option>
+                                <option value="ece">Electronics & Communication</option>
+                                <option value="me">Mechanical Engineering</option>
+                                <option value="ce">Civil Engineering</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="semester">Semester</label>
+
+                            <select id="semester" name="semester" required>
+                                <option value="">Select semester</option>
+                                <option value="1">Semester 1</option>
+                                <option value="2">Semester 2</option>
+                                <option value="3">Semester 3</option>
+                                <option value="4">Semester 4</option>
+                                <option value="5">Semester 5</option>
+                                <option value="6">Semester 6</option>
+                                <option value="7">Semester 7</option>
+                                <option value="8">Semester 8</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+
+                    <fieldset class="gender-group">
+
+                        <legend>Gender</legend>
+
+                        <label class="radio-option">
+                            <input type="radio" name="gender" value="male">
+                            Male
+                        </label>
+
+                        <label class="radio-option">
+                            <input type="radio" name="gender" value="female">
+                            Female
+                        </label>
+
+                        <label class="radio-option">
+                            <input type="radio" name="gender" value="other">
+                            Other
+                        </label>
+
+                    </fieldset>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                placeholder="Create password"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="confirmPassword">Confirm Password</label>
+
+                            <input
+                                type="password"
+                                id="confirmPassword"
+                                name="confirmPassword"
+                                placeholder="Confirm password"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+
+                    <label class="terms-option">
+                        <input type="checkbox" name="terms" required>
+                        <span>
+                            I agree to the StudentHub
+                            <a href="#">Terms & Conditions</a>.
+                        </span>
+                    </label>
+
+
+                    <button type="submit" class="create-account-btn">
+                        Create My Account →
+                    </button>
+
+                </form>
+
+
+                <p class="login-text">
+                    Already have an account?
+                    <a href="login.html">Login here</a>
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div>
+                <h2>🎓 StudentHub</h2>
+                <p>
+                    Your digital space to learn, connect and grow.
+                </p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="events.html">Events</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div>
+                <h3>Student</h3>
+                <a href="register.html">Register</a>
+                <a href="login.html">Login</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="profile.html">Profile</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 StudentHub. All Rights Reserved.
+        </div>
+
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

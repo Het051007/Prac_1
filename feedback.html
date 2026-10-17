@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback | StudentHub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            🎓 StudentHub
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="feedback.html" class="active-link">Feedback</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-buttons">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="register.html" class="register-btn">Register</a>
+        </div>
+
+    </header>
+
+
+    <!-- ================= FEEDBACK HERO ================= -->
+
+    <section class="contact-hero">
+
+        <span class="contact-tag">
+            STUDENT FEEDBACK
+        </span>
+
+        <h1>
+            Your Voice <span>Matters.</span>
+        </h1>
+
+        <p>
+            Help us improve StudentHub by sharing your experience,
+            suggestions, and ideas with us.
+        </p>
+
+    </section>
+
+
+    <!-- ================= FEEDBACK SECTION ================= -->
+
+    <section class="contact-section">
+
+        <!-- LEFT CONTENT -->
+
+        <div class="contact-info">
+
+            <div class="contact-heading">
+
+                <span>SHARE YOUR EXPERIENCE</span>
+
+                <h2>
+                    Help Us Make StudentHub Better
+                </h2>
+
+                <p>
+                    Your feedback helps us understand what students
+                    need and how we can improve their digital experience.
+                </p>
+
+            </div>
+
+
+            <div class="contact-info-card">
+
+                <div class="contact-icon">
+                    ⭐
+                </div>
+
+                <div>
+                    <h3>Rate Your Experience</h3>
+                    <p>Tell us how you feel about StudentHub.</p>
+                    <small>Your opinion helps us improve.</small>
+                </div>
+
+            </div>
+
+
+            <div class="contact-info-card">
+
+                <div class="contact-icon">
+                    💡
+                </div>
+
+                <div>
+                    <h3>Share Your Ideas</h3>
+                    <p>Have a new feature in mind?</p>
+                    <small>We would love to hear your suggestions.</small>
+                </div>
+
+            </div>
+
+
+            <div class="contact-info-card">
+
+                <div class="contact-icon">
+                    🚀
+                </div>
+
+                <div>
+                    <h3>Help Us Grow</h3>
+                    <p>Your feedback creates a better platform.</p>
+                    <small>Every suggestion makes a difference.</small>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT FEEDBACK FORM -->
+
+        <div class="contact-form-card">
+
+            <div class="form-card-header">
+
+                <div class="form-card-icon">
+                    📝
+                </div>
+
+                <div>
+                    <h2>Give Your Feedback</h2>
+                    <p>It only takes a few minutes.</p>
+                </div>
+
+            </div>
+
+
+            <form action="#" method="post">
+
+                <div class="contact-form-row">
+
+                    <div class="contact-form-group">
+                        <label for="name">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="contact-form-group">
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+                    </div>
+
+                </div>
+
+
+                <div class="contact-form-group">
+
+                    <label for="category">
+                        Feedback Category
+                    </label>
+
+                    <select id="category" name="category" required>
+
+                        <option value="">
+                            Select a category
+                        </option>
+
+                        <option value="website">
+                            Website Experience
+                        </option>
+
+                        <option value="dashboard">
+                            Dashboard
+                        </option>
+
+                        <option value="events">
+                            Events
+                        </option>
+
+                        <option value="courses">
+                            Courses & Resources
+                        </option>
+
+                        <option value="suggestion">
+                            Suggestion
+                        </option>
+
+                        <option value="other">
+                            Other
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="contact-form-group">
+
+                    <label>
+                        How would you rate StudentHub?
+                    </label>
+
+                    <div class="gender-group">
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="rating"
+                                value="excellent"
+                                required
+                            >
+                            Excellent
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="rating"
+                                value="good"
+                            >
+                            Good
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="rating"
+                                value="average"
+                            >
+                            Average
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="rating"
+                                value="poor"
+                            >
+                            Needs Improvement
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-form-group">
+
+                    <label for="subject">
+                        Subject
+                    </label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Feedback subject"
+                    >
+
+                </div>
+
+
+                <div class="contact-form-group">
+
+                    <label for="message">
+                        Your Feedback
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your feedback here..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <label class="contact-checkbox">
+
+                    <input
+                        type="checkbox"
+                        name="permission"
+                    >
+
+                    I agree that StudentHub may use my feedback
+                    to improve the platform.
+
+                </label>
+
+
+                <button
+                    type="submit"
+                    class="contact-submit-btn"
+                >
+                    Submit Feedback →
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= THANK YOU CTA ================= -->
+
+    <section class="contact-faq-cta">
+
+        <div>
+
+            <span>
+                HAVE MORE TO SAY?
+            </span>
+
+            <h2>
+                We're Listening.
+            </h2>
+
+            <p>
+                If you need help or have a detailed question,
+                feel free to contact the StudentHub team.
+            </p>
+
+        </div>
+
+        <a href="contact.html">
+            Contact Us →
+        </a>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div>
+                <h2>🎓 StudentHub</h2>
+
+                <p>
+                    Your digital space to learn,
+                    connect and grow.
+                </p>
+            </div>
+
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="events.html">Events</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>Student</h3>
+
+                <a href="register.html">Register</a>
+                <a href="login.html">Login</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="profile.html">Profile</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            © 2026 StudentHub. All Rights Reserved.
+        </div>
+
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

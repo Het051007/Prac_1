@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | StudentHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">🎓 StudentHub</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="nav-buttons">
+        <a href="login.html" class="login-btn">Login</a>
+        <a href="register.html" class="register-btn">Register</a>
+    </div>
+
+</header>
+
+
+<main>
+
+    <!-- Admin Hero -->
+
+    <section class="admin-hero">
+
+        <div>
+            <div class="admin-tag">ADMINISTRATION PANEL</div>
+
+            <h1>Manage <span>StudentHub.</span></h1>
+
+            <p>
+                Manage students, events, courses and platform activities
+                from one centralized dashboard.
+            </p>
+        </div>
+
+        <div class="admin-profile">
+            <div class="admin-avatar">AD</div>
+            <div>
+                <strong>Admin User</strong>
+                <small>Administrator</small>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Admin Statistics -->
+
+    <section class="admin-stats">
+
+        <article class="admin-stat-card">
+            <div class="admin-stat-icon">👨‍🎓</div>
+            <div>
+                <span>Total Students</span>
+                <h2>1,248</h2>
+                <small>+12% this month</small>
+            </div>
+        </article>
+
+
+        <article class="admin-stat-card">
+            <div class="admin-stat-icon">📚</div>
+            <div>
+                <span>Active Courses</span>
+                <h2>86</h2>
+                <small>8 new courses</small>
+            </div>
+        </article>
+
+
+        <article class="admin-stat-card">
+            <div class="admin-stat-icon">🎉</div>
+            <div>
+                <span>Total Events</span>
+                <h2>54</h2>
+                <small>6 upcoming</small>
+            </div>
+        </article>
+
+
+        <article class="admin-stat-card">
+            <div class="admin-stat-icon">💬</div>
+            <div>
+                <span>Feedback</span>
+                <h2>128</h2>
+                <small>18 unread</small>
+            </div>
+        </article>
+
+    </section>
+
+
+    <!-- Management Section -->
+
+    <section class="admin-management">
+
+        <div class="admin-section-heading">
+            <div>
+                <span>CONTROL CENTER</span>
+                <h2>Manage StudentHub</h2>
+            </div>
+
+            <p>
+                Select an area to manage platform activities.
+            </p>
+        </div>
+
+
+        <div class="admin-management-grid">
+
+            <article class="admin-management-card">
+
+                <div class="management-icon">👥</div>
+
+                <div>
+                    <h3>Student Management</h3>
+                    <p>
+                        View, update and manage registered student accounts.
+                    </p>
+                    <a href="#">Manage Students →</a>
+                </div>
+
+            </article>
+
+
+            <article class="admin-management-card">
+
+                <div class="management-icon">📅</div>
+
+                <div>
+                    <h3>Event Management</h3>
+                    <p>
+                        Create, edit and manage upcoming college events.
+                    </p>
+                    <a href="events.html">Manage Events →</a>
+                </div>
+
+            </article>
+
+
+            <article class="admin-management-card">
+
+                <div class="management-icon">📖</div>
+
+                <div>
+                    <h3>Course Management</h3>
+                    <p>
+                        Add new courses and update existing learning resources.
+                    </p>
+                    <a href="#">Manage Courses →</a>
+                </div>
+
+            </article>
+
+
+            <article class="admin-management-card">
+
+                <div class="management-icon">💭</div>
+
+                <div>
+                    <h3>Feedback Management</h3>
+                    <p>
+                        Review student feedback and suggestions.
+                    </p>
+                    <a href="feedback.html">View Feedback →</a>
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Recent Students -->
+
+    <section class="admin-students">
+
+        <div class="admin-section-heading">
+            <div>
+                <span>STUDENT ACTIVITY</span>
+                <h2>Recently Registered Students</h2>
+            </div>
+
+            <a href="#" class="view-all-btn">View All</a>
+        </div>
+
+
+        <div class="student-table-wrapper">
+
+            <table class="student-table">
+
+                <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>Student ID</th>
+                        <th>Course</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>
+                            <div class="table-student">
+                                <div>RK</div>
+                                <span>Rahul Kumar</span>
+                            </div>
+                        </td>
+
+                        <td>25CS101</td>
+
+                        <td>Computer Science</td>
+
+                        <td>
+                            <span class="status-active">Active</span>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <div class="table-student">
+                                <div>AS</div>
+                                <span>Anjali Shah</span>
+                            </div>
+                        </td>
+
+                        <td>25CS102</td>
+
+                        <td>Information Technology</td>
+
+                        <td>
+                            <span class="status-active">Active</span>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <div class="table-student">
+                                <div>VP</div>
+                                <span>Vivek Patel</span>
+                            </div>
+                        </td>
+
+                        <td>25CS103</td>
+
+                        <td>Computer Engineering</td>
+
+                        <td>
+                            <span class="status-pending">Pending</span>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <div class="table-student">
+                                <div>NM</div>
+                                <span>Neha Mehta</span>
+                            </div>
+                        </td>
+
+                        <td>25CS104</td>
+
+                        <td>Data Science</td>
+
+                        <td>
+                            <span class="status-active">Active</span>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- Quick Actions -->
+
+    <section class="admin-actions">
+
+        <h2>Quick Actions</h2>
+
+        <div class="admin-action-grid">
+
+            <a href="register.html" class="admin-action">
+                <span>➕</span>
+                <strong>Add Student</strong>
+            </a>
+
+            <a href="events.html" class="admin-action">
+                <span>📅</span>
+                <strong>Create Event</strong>
+            </a>
+
+            <a href="#" class="admin-action">
+                <span>📚</span>
+                <strong>Add Course</strong>
+            </a>
+
+            <a href="feedback.html" class="admin-action">
+                <span>💬</span>
+                <strong>Review Feedback</strong>
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div>
+            <h2>🎓 StudentHub</h2>
+            <p>Your digital space to learn, connect and grow.</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="events.html">Events</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+            <h3>Student</h3>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="profile.html">Profile</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 StudentHub. All Rights Reserved.
+    </div>
+
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
